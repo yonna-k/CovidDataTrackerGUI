@@ -28,3 +28,7 @@ CovidDataTrackerGUI is a Java-based GUI application that tracks and visualizes C
     On Windows:
    
    <pre>gradlew.bat test</pre>
+
+## Additional Notes
+- If you would like to see the spreadsheet of data that is used in this project, navigate to 'src/main/resources'.
+  The spreadsheet is called 'covid_london.csv'
