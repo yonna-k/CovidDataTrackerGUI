@@ -1,0 +1,54 @@
+/* Style the first series */
+.series0 {
+    -fx-stroke: #ffc0cb ; /* pink */
+    -fx-padding: 5px;}
+
+/* Style the second series */
+.series1 {
+    -fx-stroke: #d8bfd8; /* purple */
+    -fx-padding: 5px;}
+
+/* Style the data points of the first series */
+.series0.chart-line-symbol {
+    -fx-background-color: #ffe4e1; /* black*/}
+
+/* Style the data points of the second series */
+.series1.chart-line-symbol {
+    -fx-background-color: #e6a8d7; /* white*/}
+
+.axis-label {
+    -fx-text-fill: #000000;
+    -fx-font-size: 1.1em;}
+
+/chart/
+
+.chart-plot-background {
+    -fx-background-color: #ffffff;  /* grey*/}
+
+.chart-title {
+    -fx-text-fill: #000000;
+    -fx-font-size: 1.9em;}
+
+.instruction-label {
+    -fx-font-size: 15;
+    -fx-text-fill: red;
+}
+
+/* Style the Button background */
+.button {
+    -fx-background-color:   #fddde6;
+    -fx-text-fill: #000000;
+    -fx-font-size: 14}
+
+
+/* Style the buttons when they are hovered*/
+.button:hover {
+    -fx-background-color: #e1f7e7; /* Background color when hovered */}
+
+.custom-button {
+    -fx-background-color: #ffefad;
+    -fx-font-size: 12;
+    -fx-text-fill: black;}
+
+.custom-button:hover {
+    -fx-background-color: #fddde6;}

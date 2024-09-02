@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/lib" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/BoroughWindowController.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/ChallengeTask.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/CovidData.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/CovidDataLoader.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/DataSingleton.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/Launcher.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/MapScreen.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/MapScreenController.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/StatisticsPanel.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/WelcomePage.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/WelcomePageController.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/BoroughWindow.fxml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/MapScreen.fxml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/WelcomePage1.fxml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/buttons.css" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/challengeTask.css" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/covid_london.csv" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/stats.css" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/test/java/org/example/StatisticsPanelTest.java" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,43 @@
+plugins {
+    id 'java'
+    id 'org.openjfx.javafxplugin' version '0.1.0'
+    id 'org.beryx.jlink' version '2.26.0'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'lib'
+    }
+}
+
+javafx{
+    version = "21"
+    modules = ['javafx.controls', 'javafx.fxml']
+}
+application{
+    mainClass = "org.example.Launcher"
+    mainModule = "CovidGUI.main"
+}
+
+dependencies {
+    //testImplementation platform('org.junit:junit-bom:5.9.1')
+    //testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation 'junit:junit:4.13.2' // JUnit 4
+    implementation 'com.opencsv:opencsv:5.8'
+}
+
+test {
+    //useJUnitPlatform()
+    useJUnit()
+}
+
+jlink {
+    options = ['--strip-debug', '--compress', '2', '--no-header-files', '--no-man-pages']
+    launcher {
+        name = 'CovidGUI.main'
+    }
+}

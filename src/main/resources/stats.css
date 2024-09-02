@@ -1,0 +1,28 @@
+.button {
+    -fx-background-color:  #fddde6;;
+    -fx-font-size: 14;
+    -fx-text-fill: #000;
+    -fx-font-family: "Calibri Light";
+}
+
+/* Style the buttons when they are hovered*/
+.button:hover {
+    -fx-background-color: #e1f7e7; /* Background color when hovered */}
+
+.custom-button {
+    -fx-background-color: #ffefad;
+    -fx-font-size: 12;
+    -fx-text-fill: black;}
+
+.custom-button:hover {
+    -fx-background-color: #fddde6;}
+
+.statistic-text {
+    -fx-font-size: 30px;
+    -fx-font-family: "Lucida Sans Typewriter";
+}
+
+.label {
+    -fx-font-size: 18;
+    -fx-font-family: "Calibri Light";
+}

@@ -1,0 +1,3 @@
+/* Style the buttons when they are hovered*/
+.button:hover {
+    -fx-background-color: #fddde6; /* Background color when hovered */}
