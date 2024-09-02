@@ -13,12 +13,18 @@ CovidDataTrackerGUI is a Java-based GUI application that tracks and visualizes C
 2. Navigate to the project directory:
 <pre>cd MyCovidProject</pre>
 5. Run the project:
-   - On Unix/Linux/MacOS:
+   
+    On Unix/Linux/MacOS:
+
    <pre>./gradlew build</pre>
-   - On Windows:
+    On Windows:
+
    <pre>gradlew.bat run</pre>
-6. Running tests:
-   - On Unix/Linux/MacOS:
+7. Running tests:
+   
+    On Unix/Linux/MacOS:
+   
    <pre>./gradlew test</pre>
-   - On Windows:
+    On Windows:
+   
    <pre>gradlew.bat test</pre>
