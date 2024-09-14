@@ -11,7 +11,7 @@ CovidDataTrackerGUI is a Java-based GUI application that tracks and visualizes C
 1. Clone the repository:
 <pre>git clone https://github.com/yonna-k/CovidDataTrackerGUI.git</pre>
 2. Navigate to the project directory:
-<pre>cd MyCovidProject</pre>
+<pre>cd CovidDataTrackerGUI</pre>
 5. Run the project:
    
     On Unix/Linux/MacOS:
