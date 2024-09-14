@@ -12,7 +12,7 @@ CovidDataTrackerGUI is a Java-based GUI application that tracks and visualizes C
 <pre>git clone https://github.com/yonna-k/CovidDataTrackerGUI.git</pre>
 2. Navigate to the project directory:
 <pre>cd CovidDataTrackerGUI</pre>
-5. Run the project:
+3. Run the project:
    
     On Unix/Linux/MacOS:
 
@@ -20,7 +20,7 @@ CovidDataTrackerGUI is a Java-based GUI application that tracks and visualizes C
     On Windows:
 
    <pre>gradlew.bat run</pre>
-7. Running tests:
+4. Running tests:
    
     On Unix/Linux/MacOS:
    
